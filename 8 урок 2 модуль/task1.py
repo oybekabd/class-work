@@ -71,21 +71,21 @@
 # print(sum(10, 20, third = 30, fifth = 50))   
 
 # Task 4
-class TriangleChecker:
-    def __init__(self, num1, num2, num3):
-        self.num1 = num1
-        self.num2 = num2
-        self.num3 = num3
+# class TriangleChecker:
+#     def __init__(self, num1, num2, num3):
+#         self.num1 = num1
+#         self.num2 = num2
+#         self.num3 = num3
 
-    def is_triangle(self):
-        if not(isinstance(self.num1, (int, float))) or not(isinstance(self.num1, (int, float))) or not(isinstance(self.num1, (int, float))):
-            raise TypeError('Enter values in int or float')
+#     def is_triangle(self):
+#         if not(isinstance(self.num1, (int, float))) or not(isinstance(self.num1, (int, float))) or not(isinstance(self.num1, (int, float))):
+#             raise TypeError('Введите значение в int или float')
         
-        elif self.num1 < 0 or self.num2 < 0 or self.num3 < 0:
-            return ('It is not possible with negatives')
-        elif (self.num1 + self.num2) <= self.num3 or (self.num1 + self.num3) <= self.num2 or (self.num3 + self.num2) <= self.num1:
-            return ('It is not possible')
-        else: return ('Yeah you can do it')
-tri = TriangleChecker(1, 2, 3)        
-print(tri.is_triangle())
+#         elif self.num1 < 0 or self.num2 < 0 or self.num3 < 0:
+#             return ('С минусом нельзя')
+#         elif (self.num1 + self.num2) <= self.num3 or (self.num1 + self.num3) <= self.num2 or (self.num3 + self.num2) <= self.num1:
+#             return ('Это невозможно')
+#         else: return ('Да, ты можешь это сделать ')
+# tri = TriangleChecker(1, 2, 3)        
+# print(tri.is_triangle())
 
